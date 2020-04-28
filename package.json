@@ -3,16 +3,33 @@
     "version": "0.0.1",
     "main": "watchtower.js",
     "scripts": {
-      "start": "node watchtower.js"
+        "start": "node watchtower.js"
     },
-    "engines": { "node": "10.x" },
+    "engines": {
+        "node": "10.x"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/RonanFinley/WatchTower.git"
     },
-    "keywords": ["watchtower","webhook","private","forward","git", "github"],
+    "keywords": [
+        "watchtower",
+        "webhook",
+        "private",
+        "forward",
+        "git",
+        "github"
+    ],
     "author": "Ronan Finley",
     "license": "Mozilla Public License 2.0",
     "bugs": "https://github.com/RonanFinley/WatchTower/issues",
-    "homepage": "https://github.com/RonanFinley/WatchTower/"
+    "homepage": "https://github.com/RonanFinley/WatchTower/",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "crypto": "^1.0.1",
+        "express": "^4.17.1",
+        "https": "^1.0.0",
+        "url": "^0.11.0",
+        "ws": "^7.2.5"
+    }
 }
